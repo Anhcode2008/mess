@@ -10,7 +10,7 @@ def print_info_banner():
     banner = (              
         "\033[1;39m┌──────────────────────── Info ───────────────────────┐\n"
         "\033[1;33m ➜ \033[1;39mAdmin: Anh Code\n"
-        "\033[1;33m ➜ \033[1;39mBox: Thiên Không Thần Aka T1💌\n"
+        "\033[1;33m ➜ \033[1;39mBox: Anh Code \n"
         "\033[1;33m ➜ \033[1;39mCHỨC NĂNG MESSENGER💬\n"
         "\033[1;33m ➜ \033[1;39m[1] Treo Ngôn\n"
         "\033[1;39m└─────────────────────────────────────────────────────┘\n"
@@ -126,7 +126,7 @@ def main():
         print("Không đọc được file.")
         return
 
-    print("\n💤 Bắt Đầu Spam Ngôn By Thiên Không Thần🔰💤")
+    print("\n💤 Bắt Đầu Spam Ngôn By Anh Code 💤")
     send_messages_loop(messengers, recipient_ids, message, delay)
 
 if __name__ == "__main__":
